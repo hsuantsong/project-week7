@@ -25,9 +25,9 @@
                     src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week2/people.png"
                     alt="william大頭照"></div>
             <div class="banner-content">
-                <p class="fz-64">Hi</p>
-                <p class="fz-64">I’m a front-end developer</p>
-                <p class="name">William</p>
+                <p class="fz-64" data-aos="fade-left">Hi</p>
+                <p class="fz-64" data-aos="fade-left">I’m a front-end developer</p>
+                <p class="name" data-aos="fade-left">William</p>
                 <a href="#">
                     <div class="btn">
                         <p class="fz-16">CONTACT ME</p>
@@ -42,8 +42,9 @@
     <div class="intro">
         <div class="container">
             <div class="intro-content">
-                <p class="fz-64 title">Introduction</p>
-                <p class="fz-24 detail">Hi, I'm William Lee, a Front-End Developer with a passion for building beautiful
+                <p class="fz-64 title" data-aos="fade-up" data-aos-anchor-placement="center-center">Introduction</p>
+                <p class="fz-24 detail" data-aos="fade-up" data-aos-anchor-placement="center-center">Hi, I'm William
+                    Lee, a Front-End Developer with a passion for building beautiful
                     and
                     responsive
                     websites that provide an optimal user experience.</p>
@@ -70,22 +71,22 @@
     <div class="about">
         <div class="container">
             <ul class="about-card">
-                <li class="card-top">
+                <li class="card-top" data-aos="flip-right">
                     <p class="fz-20 num">01</p>
                     <p class="fz-20 title">Attention to Detail</p>
                     <p class="fz-16">Meticulous code analysis and optimization.</p>
                 </li>
-                <li class="card-top">
+                <li class="card-top" data-aos="flip-right">
                     <p class="fz-20 num">02</p>
                     <p class="fz-20 title">Adaptability</p>
                     <p class="fz-16">Swift learning of new technologies.</p>
                 </li>
-                <li class="card-bottom">
+                <li class="card-bottom" data-aos="flip-right">
                     <p class="fz-20 num">03</p>
                     <p class="fz-20 title">Problem Solver</p>
                     <p class="fz-16">Identifying and resolving issues.</p>
                 </li>
-                <li class="card-bottom">
+                <li class="card-bottom" data-aos="flip-right">
                     <p class="fz-20 num">04</p>
                     <p class="fz-20 title">Team Player</p>
                     <p class="fz-16">Collaborates and shares ideas.</p>
@@ -172,6 +173,12 @@
     </div>
 
 
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
