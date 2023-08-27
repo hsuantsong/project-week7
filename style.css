@@ -1,0 +1,443 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1.5;
+    font-family: 'Bruno Ace SC', cursive;
+    background: #000;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+    /*outline: 1px gray solid;*/
+}
+
+.fz-16 {
+    font-size: 16px;
+}
+
+.fz-20 {
+    font-size: 20px;
+}
+
+.fz-24 {
+    font-size: 24px;
+}
+
+.fz-64 {
+    font-size: 64px;
+}
+
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li {
+    color: #D1D1D1;
+    width: 306px;
+    padding-top: 40px;
+}
+
+.navbar li:last-child {
+    width: 196px;
+    text-align: right;
+    padding-bottom: 24px;
+}
+
+.navbar a {
+    color: #D1D1D1;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-photo {
+    padding: 72px 0;
+
+}
+
+.banner-content {
+    width: 636px;
+}
+
+.banner-content p {
+    color: #fff
+}
+
+.banner-content .name {
+    color: #00FFA3;
+    font-size: 128px;
+    text-align: right;
+}
+
+.btn {
+    background: #fff;
+    border-radius: 32px;
+    float: right;
+    padding: 12px 24px;
+}
+
+.btn p,
+.btn img {
+    color: #000;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.intro-content p {
+    color: #fff;
+}
+
+.intro-img {
+    display: flex;
+}
+
+.intro-img li {
+    margin-right: 16px;
+}
+
+.intro {
+    background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week2/background-img.png);
+}
+
+.intro .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro-photo {
+    display: flex;
+    justify-content: space-between;
+    width: 746px;
+    padding: 160px 0;
+}
+
+.intro-content {
+    width: 526px;
+    padding: 160px 0 318px 0;
+}
+
+.intro-content .title {
+    margin-bottom: 36px;
+}
+
+.intro-content .detail {
+    margin-bottom: 32px;
+}
+
+.about {
+    background: #fff;
+}
+
+.about .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-card {
+    width: 636px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-card li {
+    width: 306px;
+    border: 1px solid #E3E3E3;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.08);
+    color: #15161D;
+    padding: 16px;
+}
+
+.card-top {
+    margin-bottom: 24px;
+}
+
+.card-bottom {
+    margin-bottom: 8px;
+}
+
+.about-card .num,
+.about-card .title {
+    margin-bottom: 4px;
+}
+
+.about-detail .title {
+    margin-bottom: 36px;
+}
+
+.about-detail .detail {
+    color: #15161D;
+}
+
+.about-detail {
+    width: 526px;
+    padding: 160px 0;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact p {
+    color: #fff;
+    margin-right: 16px;
+}
+
+.social-media {
+    background-image: linear-gradient(to bottom, rgba(5, 0, 20, 1), rgba(1, 2, 30, 0.89))
+}
+
+.social-media .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    width: 526px;
+    justify-content: space-between;
+}
+
+.links li {
+    padding: 96px 0;
+}
+
+.links img {
+    border-radius: 45px;
+}
+
+.links img:hover {
+    box-shadow: 0 0 16px 3px rgba(144, 148, 255, 0.9);
+}
+
+.projects {
+    background-color: #fff;
+}
+
+.projects .container {
+    padding: 160px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.projects h2 {
+    width: 746px;
+}
+
+.projects-detail {
+    margin-top: 16px;
+    display: flex;
+}
+
+.group-info {
+    color: #15161D;
+    display: flex;
+}
+
+.group-pic {
+    display: flex;
+}
+
+.mr-24 {
+    margin-right: 24px;
+}
+
+.project-group {
+    width: 856px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.info-detail {
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info-detail a {
+    display: inline-block;
+    width: 185px;
+}
+
+.btn-more {
+    background: #000;
+    border-radius: 32px;
+    padding: 12px 24px;
+    display: flex;
+}
+
+.btn-more p {
+    color: #fff;
+    margin-right: 4px;
+}
+
+.btn-more p,
+.btn-more img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer {
+    padding: 40px 0;
+}
+
+.footer p {
+    color: #fff;
+    text-align: center;
+}
